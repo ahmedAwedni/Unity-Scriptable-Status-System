@@ -34,7 +34,7 @@ By overriding the OnApply, OnTick, and OnRemove methods, you can create complex 
 
 ## 🚀 Possible Extensions
 
-* **Effect Stacking:** Logic to determine if multiple instances of the same effect refresh the duration or stack intensity.
+* ~~**Effect Stacking:** Logic to determine if multiple instances of the same effect refresh the duration or stack intensity.~~ [ADDED LATELY]
 * **Visual FX:** Add a ParticleSystem field to the ScriptableObject to automatically spawn fire/sparks on the target.
 * **UI Sync:** A delegate/event system to update a "Buff Bar" on the player's screen.
 
