@@ -5,7 +5,8 @@ public class StatusEffect : ScriptableObject
 {
     public string effectName;
     public float duration;
-    public float tickInterval; // For things like poison damage
+    public float tickInterval; 
+    public bool stackable; // NEW: Determines if multiple instances can exist
 
     public virtual void OnApply(GameObject target) => Debug.Log($"{effectName} applied!");
     public virtual void OnTick(GameObject target) { }
